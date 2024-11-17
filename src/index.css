@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+.p1 {
+  padding: 60px 100px 60px;
+}
+
+.p2 {
+  padding: 76px 50px 60px;
+}
